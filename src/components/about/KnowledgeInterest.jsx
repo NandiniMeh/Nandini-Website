@@ -40,7 +40,10 @@ const KnowledgeInterest = () => {
                   <span>
                     <img
                       className="svg"
-                      src="assets/img/svg/rightarrow.svg"
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/img/svg/rightarrow.svg"
+                      }
                       alt="arrow"
                     />
                     {val}

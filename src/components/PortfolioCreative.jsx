@@ -57,7 +57,7 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/battleship.png"
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/battleship.png`}
                           alt="battleship"
                           data-tip
                           data-for="shot"
@@ -86,7 +86,7 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/markManager.jpg"
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/markManager.jpg`}
                           alt="Mark Management"
                           data-tip
                           data-for="shot2"
@@ -114,7 +114,7 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/gastech.jpg"
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/gastech.jpg`}
                           alt="Details"
                           data-tip
                           data-for="detail"
@@ -142,7 +142,7 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/theHub.jpg"
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/theHub.jpg`}
                           alt="Details"
                           data-tip
                           data-for="detail2"
@@ -171,7 +171,7 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/weatherChecker.jpg"
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/weatherChecker.jpg`}
                           alt="weather checker"
                           data-tip
                           data-for="shot3"
@@ -200,7 +200,7 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/resumeGenerator.jpg"
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/resumeGenerator.jpg`}
                           alt="Resume Builder"
                           data-tip
                           data-for="shot4"
@@ -242,7 +242,10 @@ const Portfolio = () => {
       >
         <div className="nandini_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalThree}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`}
+              alt="close icon"
+            />
           </button>
           <div className="box_inner">
             <div className="description_wrap scrollable">
@@ -251,7 +254,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/gastech.png)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/gastech.png)`,
                   }}
                 ></div>
               </div>
@@ -319,7 +322,7 @@ const Portfolio = () => {
                 <br />
                 <h6>Our (Re)Design Process </h6>
                 <img
-                  src="assets/img/portfolio/design_process.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/design_process.png`}
                   alt="design process"
                   style={{ marginBottom: "2%" }}
                 ></img>
@@ -332,12 +335,12 @@ const Portfolio = () => {
                   made.
                 </p>
                 <img
-                  src="assets/img/portfolio/research.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/research.png`}
                   alt="research"
                   style={{ marginBottom: "2%" }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/potential_improvements.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/potential_improvements.png`}
                   alt="potential improvements"
                   style={{
                     marginBottom: "2%",
@@ -376,7 +379,7 @@ const Portfolio = () => {
                 </p>
                 <h6 style={{ marginTop: "4%" }}>Wireframes</h6>
                 <img
-                  src="assets/img/portfolio/walkthrough-home.gif"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/walkthrough-home.gif`}
                   alt="home screen"
                   style={{
                     marginBottom: "2%",
@@ -389,7 +392,7 @@ const Portfolio = () => {
                   }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/walkthrough-nav.gif"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/walkthrough-nav.gif`}
                   alt="navigation screen"
                   style={{
                     marginBottom: "2%",
@@ -402,7 +405,7 @@ const Portfolio = () => {
                   }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/other-pages.JPG"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/other-pages.JPG`}
                   alt="other pages"
                   style={{
                     marginBottom: "2%",
@@ -430,7 +433,10 @@ const Portfolio = () => {
       >
         <div className="nandini_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalFour}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`}
+              alt="close icon"
+            />
           </button>
           <div className="box_inner">
             <div className="description_wrap scrollable">
@@ -439,8 +445,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/portfolio/theHubScreens.jpeg)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/theHubScreens.jpeg)`,
                   }}
                 ></div>
               </div>
@@ -531,7 +536,7 @@ const Portfolio = () => {
                 </p>
                 <h6>High Fidelity Model (HiFi)</h6>
                 <img
-                  src="assets/img/portfolio/Login.gif"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/Login.gif`}
                   alt="other pages"
                   style={{
                     marginBottom: "2%",
@@ -544,7 +549,7 @@ const Portfolio = () => {
                   }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/Searching.gif"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/Searching.gif`}
                   alt="other pages"
                   style={{
                     marginBottom: "2%",
@@ -557,7 +562,7 @@ const Portfolio = () => {
                   }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/Posting.gif"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/Posting.gif`}
                   alt="other pages"
                   style={{
                     marginBottom: "2%",
@@ -570,7 +575,7 @@ const Portfolio = () => {
                   }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/End Call.gif"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/End Call.gif`}
                   alt="other pages"
                   style={{
                     marginBottom: "9%",
@@ -610,7 +615,10 @@ const Portfolio = () => {
       >
         <div className="nandini_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModal}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`}
+              alt="close icon"
+            />
           </button>
           <div className="box_inner">
             <div className="description_wrap scrollable">
@@ -619,8 +627,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/portfolio/mockup-battleship.png)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/mockup-battleship.png)`,
                     transform: "scale(1.2) translateX(3%)",
                   }}
                 ></div>
@@ -712,7 +719,7 @@ const Portfolio = () => {
                 </p>
                 <h5>Walkthrough Game</h5>
                 <img
-                  src="assets/img/portfolio/battleship-1.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/battleship-1.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -729,7 +736,7 @@ const Portfolio = () => {
                   the placements of the ships on their board.
                 </p>
                 <img
-                  src="assets/img/portfolio/battleship-2.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/battleship-2.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -747,7 +754,7 @@ const Portfolio = () => {
                   their targets in their initial attacks.
                 </p>
                 <img
-                  src="assets/img/portfolio/battleship-3.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/battleship-3.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -779,7 +786,10 @@ const Portfolio = () => {
       >
         <div className="nandini_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModal2}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`}
+              alt="close icon"
+            />
           </button>
           <div className="box_inner">
             <div className="description_wrap scrollable">
@@ -788,8 +798,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/portfolio/markManagement-overview.png)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/markManagement-overview.png)`,
                     transform: "scale(1.2) translateX(3%)",
                   }}
                 ></div>
@@ -870,7 +879,7 @@ const Portfolio = () => {
                   improvements, setbacks, or consistent performance.
                 </p>
                 <img
-                  src="assets/img/portfolio/management-1.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management-1.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -893,7 +902,7 @@ const Portfolio = () => {
                   made towards fulfilling the degree requirements.
                 </p>
                 <img
-                  src="assets/img/portfolio/management-2.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management-2.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -915,7 +924,7 @@ const Portfolio = () => {
                   range are displayed in the top left corner of the panel.
                 </p>
                 <img
-                  src="assets/img/portfolio/management-3.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management-3.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -939,7 +948,7 @@ const Portfolio = () => {
                   Courses Taken, Courses Failed etc are shown.
                 </p>
                 <img
-                  src="assets/img/portfolio/management1-1.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management1-1.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -950,7 +959,7 @@ const Portfolio = () => {
                   }}
                 ></img>
                 <img
-                  src="assets/img/portfolio/management1-2.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management1-2.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -967,7 +976,7 @@ const Portfolio = () => {
                   course code.
                 </p>
                 <img
-                  src="assets/img/portfolio/management1-3.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management1-3.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -987,7 +996,7 @@ const Portfolio = () => {
                   criteria.
                 </p>
                 <img
-                  src="assets/img/portfolio/management1-4.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/management1-4.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -1013,7 +1022,10 @@ const Portfolio = () => {
       >
         <div className="nandini_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalFive}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`}
+              alt="close icon"
+            />
           </button>
           <div className="box_inner">
             <div className="description_wrap scrollable">
@@ -1022,8 +1034,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/portfolio/weatherChecker-1.png)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/weatherChecker-1.png)`,
                   }}
                 ></div>
               </div>
@@ -1100,7 +1111,7 @@ const Portfolio = () => {
                   prompt to enter the name of a city.
                 </p>
                 <img
-                  src="assets/img/portfolio/weatherChecker-1.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/weatherChecker-1.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -1122,7 +1133,7 @@ const Portfolio = () => {
                   logos delivers an engaging and aesthetic experience for users.
                 </p>
                 <img
-                  src="assets/img/portfolio/weatherChecker-2.png"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/weatherChecker-2.png`}
                   alt="other pages"
                   style={{
                     marginBottom: "5%",
@@ -1148,7 +1159,10 @@ const Portfolio = () => {
       >
         <div className="nandini_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalSix}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`}
+              alt="close icon"
+            />
           </button>
           <div className="box_inner">
             <div className="description_wrap scrollable">
@@ -1157,8 +1171,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/portfolio/resumeMaker-home.png)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/resumeMaker-home.png)`,
                   }}
                 ></div>
               </div>
@@ -1225,7 +1238,7 @@ const Portfolio = () => {
                   background and qualifications.
                 </p>
                 <video
-                  src="assets/img/portfolio/resume-walkthrough.mp4"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/resume-walkthrough.mp4`}
                   controls
                   autoplay
                   style={{
@@ -1248,7 +1261,7 @@ const Portfolio = () => {
                   professionally designed document.
                 </p>
                 <video
-                  src="assets/img/portfolio/created_resume.mp4"
+                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/created_resume.mp4`}
                   controls
                   autoplay
                   style={{

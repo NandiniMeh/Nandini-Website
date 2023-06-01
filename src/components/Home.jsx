@@ -11,7 +11,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/Me.jpg)",
+                backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/slider/Me.jpg)`,
               }}
             ></div>
             {/* END AVATAR IMAGE */}
