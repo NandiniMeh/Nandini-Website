@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nandini-Website/static/css/main.75e0d6be.css",
+    "main.js": "/Nandini-Website/static/js/main.2dc5183b.js",
+    "static/js/27.ea5a8d51.chunk.js": "/Nandini-Website/static/js/27.ea5a8d51.chunk.js",
+    "static/media/Me.jpg": "/Nandini-Website/static/media/Me.c90abd1355c348cebddf.jpg",
+    "index.html": "/Nandini-Website/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.75e0d6be.css",
+    "static/js/main.2dc5183b.js"
+  ]
+}
