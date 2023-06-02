@@ -51,7 +51,9 @@ const Contact = () => {
             <div className="title_flex">
               <div className="left">
                 <span>Contact</span>
-                <h3>Get in Touch</h3>
+                <h3>
+                  Get in Touch<strong style={{ color: "#0d98ba" }}>.</strong>
+                </h3>
               </div>
             </div>
           </div>

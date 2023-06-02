@@ -45,7 +45,10 @@ const Portfolio = () => {
               <div className="title_flex">
                 <div className="left">
                   <span>Portfolio</span>
-                  <h3>Creative Portfolio</h3>
+                  <h3>
+                    Creative Portfolio
+                    <strong style={{ color: "#0d98ba" }}>.</strong>
+                  </h3>
                 </div>
               </div>
             </div>
