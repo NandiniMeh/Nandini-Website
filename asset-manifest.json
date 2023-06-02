@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nandini-Website/static/css/main.75e0d6be.css",
-    "main.js": "/Nandini-Website/static/js/main.92ef4de7.js",
-    "static/js/27.ea5a8d51.chunk.js": "/Nandini-Website/static/js/27.ea5a8d51.chunk.js",
-    "static/media/Me.jpg": "/Nandini-Website/static/media/Me.c90abd1355c348cebddf.jpg",
-    "index.html": "/Nandini-Website/index.html"
+    "main.css": "/static/css/main.f719a6b6.css",
+    "main.js": "/static/js/main.59140531.js",
+    "static/js/27.ea5a8d51.chunk.js": "/static/js/27.ea5a8d51.chunk.js",
+    "static/media/Me.jpg": "/static/media/Me.c90abd1355c348cebddf.jpg",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.75e0d6be.css",
-    "static/js/main.92ef4de7.js"
+    "static/css/main.f719a6b6.css",
+    "static/js/main.59140531.js"
   ]
 }
