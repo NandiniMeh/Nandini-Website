@@ -1,7 +1,7 @@
 {
   "name": "nandini",
   "version": "2.3.0",
-  "homepage": "https://NandiniMeh.github.io/Nandini-Website",
+  "homepage": "https://nandinim.design",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
