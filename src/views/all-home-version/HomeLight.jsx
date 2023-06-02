@@ -50,7 +50,9 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/Nandini-Website/assets/img/svg/home-run.svg"
+                      src={
+                        process.env.PUBLIC_URL + "/assets/img/svg/home-run.svg"
+                      }
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
