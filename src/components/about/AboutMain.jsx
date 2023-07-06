@@ -6,7 +6,7 @@ import PersonalInfo from "./PersonalInfo";
 
 Modal.setAppElement("#root");
 
-const AboutMain = () => {
+const AboutMain = (props) => {
   return (
     <>
       <div className="container">
@@ -23,7 +23,7 @@ const AboutMain = () => {
           </div>
           {/* End title */}
 
-          <Intro />
+          <Intro {...props} />
           <div className="nandini_tm_short_info">
             <PersonalInfo />
           </div>

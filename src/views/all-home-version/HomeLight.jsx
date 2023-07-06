@@ -114,7 +114,7 @@ const HomeLight = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  <About />
+                  <About isDarkMode={isDarkMode} />
                 </div>
               </TabPanel>
               {/* END ABOUT MENU TAB CONTENT */}
