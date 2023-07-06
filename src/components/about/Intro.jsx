@@ -36,6 +36,13 @@ const Intro = () => {
   return (
     <>
       <div className="top_author_image">
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/assets/img/portfolio/hello.gif"
+          }
+          alt=""
+        />
       </div>
       <div className="about_title">
         <h3>{introContent.name}</h3>
