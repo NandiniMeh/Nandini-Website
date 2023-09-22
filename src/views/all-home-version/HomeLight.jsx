@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import Home from "../../components/Home";
 import About from "../../components/about/AboutMain";
+import Courses from "../../components/Courses";
 import Portfolio from "../../components/PortfolioCreative";
 import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
@@ -85,6 +86,14 @@ const HomeLight = () => {
                     />
                     <span className="menu_content"> Contact</span>
                   </Tab>
+                  <Tab>
+                    <img
+                      className="svg"
+                      src={process.env.PUBLIC_URL + "/assets/img/svg/paper.svg"}
+                      alt="mail"
+                    />
+                    <span className="menu_content"> Courses</span>
+                  </Tab>
                 </ul>
               </div>
               {/* END MENU */}
@@ -120,7 +129,13 @@ const HomeLight = () => {
               {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
-                <Portfolio />
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                >
+                  <Portfolio />
+                </div>
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
 
@@ -134,6 +149,17 @@ const HomeLight = () => {
                 </div>
               </TabPanel>
               {/* END CONTACT MENU TAB CONTENT */}
+
+              <TabPanel>
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="200"
+                >
+                  <Courses />
+                </div>
+              </TabPanel>
+              {/* END COURSES MENU TAB CONTENT */}
             </div>
           </div>
         </div>
