@@ -5,7 +5,6 @@ import Home from "../../components/Home";
 import About from "../../components/about/AboutMain";
 import Courses from "../../components/Courses";
 import Portfolio from "../../components/PortfolioCreative";
-import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
 
@@ -81,14 +80,6 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src={process.env.PUBLIC_URL + "/assets/img/svg/mail.svg"}
-                      alt="mail"
-                    />
-                    <span className="menu_content"> Contact</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
                       src={process.env.PUBLIC_URL + "/assets/img/svg/paper.svg"}
                       alt="mail"
                     />
@@ -138,17 +129,6 @@ const HomeLight = () => {
                 </div>
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
-
-              <TabPanel>
-                <div
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
-                  data-aos-delay="200"
-                >
-                  <Contact />
-                </div>
-              </TabPanel>
-              {/* END CONTACT MENU TAB CONTENT */}
 
               <TabPanel>
                 <div

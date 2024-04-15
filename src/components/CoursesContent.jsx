@@ -96,6 +96,27 @@ const CoursesContent = () => {
         "CLAS104: Classical Mythology",
       ],
     },
+    {
+      id: 10,
+      colClass: "right",
+      title: "Winter 2024",
+      content: [
+        "PD6: Problem Solving",
+        "Software Engineering Associate: Boomerang Intelligence",
+      ],
+    },
+    {
+      id: 11,
+      colClass: "left",
+      title: "4A: Spring 2024",
+      content: [
+        "CS 370: Numerical Computation",
+        "CS 445: Software Req Specif & Analysis",
+        "CS 446: Software Design & Archit",
+        "CS 492: Social Implications of Comp",
+        "ENGL 306A: Intro Linguistics",
+      ],
+    },
     // Add more data similarly if needed.
   ];
 

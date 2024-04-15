@@ -635,7 +635,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 50px 0px;
 }
 
 .nandini_tm_about .about_image {
@@ -1671,100 +1671,6 @@ body.modal {
 /*	08) NANDINI CONTACT
 /*---------------------------------------------------*/
 
-.nandini_tm_contact {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  padding: 100px 0px 100px 0px;
-}
-
-.nandini_tm_contact .map_wrap {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  margin-bottom: 50px;
-}
-
-.nandini_tm_contact .map_wrap .map > div {
-  height: 400px !important;
-  width: 100% !important;
-}
-
-.nandini_tm_contact .map_wrap .map iframe {
-  width: 100%;
-  height: 100%;
-}
-
-.nandini_tm_contact .fields {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-}
-
-.nandini_tm_contact .fields .first {
-  width: 100%;
-  float: left;
-}
-
-.nandini_tm_contact .fields ul {
-  margin: 0px;
-  list-style-type: none;
-}
-
-.nandini_tm_contact .fields ul li {
-  width: 100%;
-  margin: 0px 0px 30px 0px;
-  float: left;
-}
-
-.nandini_tm_contact .fields ul li input {
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: transparent;
-  font-style: italic;
-}
-
-.nandini_tm_contact .fields ul li input:focus {
-  outline: none;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.nandini_tm_contact .fields textarea {
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  height: 120px;
-  resize: none;
-  background-color: transparent;
-}
-
-.nandini_tm_contact .fields textarea:focus {
-  outline: none;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.nandini_tm_contact .empty_notice {
-  color: #f52225;
-  margin-bottom: 7px;
-  display: none;
-  text-align: left;
-  font-weight: 500;
-}
-
-.nandini_tm_contact ul li span {
-  color: #f52225;
-  text-align: left;
-  font-weight: 500;
-}
-
-.nandini_tm_contact .returnmessage {
-  color: #3a00ff;
-  margin-bottom: 7px;
-  text-align: left;
-  font-weight: 500;
-}
 
 /*---------------------------------------------------*/
 /*	9) NANDINI MAGIC CURSOR
@@ -1940,7 +1846,6 @@ body.modal {
   .nandini_tm_about,
   .nandini_tm_home,
   .nandini_tm_portfolio,
-  .nandini_tm_contact,
   .nandini_tm_news {
     padding-top: 140px;
   }
@@ -2109,6 +2014,16 @@ body.modal {
 }
 
 @media (max-width: 767px) {
+
+  .nandini_tm_home .details {
+    text-align: center;
+  }
+
+  .nandini_tm_home .details .typewriter-home {
+    justify-content: center;
+    width: 100%;
+  }
+
   .nandini_tm_home .details .name {
     font-size: 35px;
   }
@@ -2241,10 +2156,6 @@ body.modal {
 }
 
 @media (max-width: 576px) {
-  .nandini_tm_contact {
-    padding-bottom: 100px;
-  }
-
   .nandini_tm_news {
     padding-bottom: 60px;
   }
@@ -2254,7 +2165,7 @@ body.modal {
   }
 
   .nandini_tm_about {
-    padding-bottom: 95px;
+    padding-bottom: 0px;
   }
 
   .nandini_tm_home {

@@ -28,12 +28,6 @@ const AboutMain = (props) => {
             <PersonalInfo />
           </div>
           {/* End personal info */}
-
-          <div className="nandini_tm_button" data-position="left">
-            <a href="assets/img/nandini_resume.pdf" download>
-              <span>Download Resume</span>
-            </a>
-          </div>
         </div>
       </div>
       {/* End .container */}

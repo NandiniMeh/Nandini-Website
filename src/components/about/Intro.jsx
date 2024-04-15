@@ -1,7 +1,6 @@
 import React from "react";
 
 const Intro = (props) => {
-  console.log(props)
   const introContent = {
     name: "Nandini Mehrotra",
     designation:
@@ -34,15 +33,8 @@ const Intro = (props) => {
     ),
   };
 
-    const imageSource = props.isDarkMode
-      ? process.env.PUBLIC_URL + "/assets/img/portfolio/hello_dark.gif"
-      : process.env.PUBLIC_URL + "/assets/img/portfolio/hello.gif";
-
   return (
     <>
-      <div className="top_author_image">
-        <img src={imageSource} alt="" />
-      </div>
       <div className="about_title">
         <h3>{introContent.name}</h3>
         <span>{introContent.designation}</span>
