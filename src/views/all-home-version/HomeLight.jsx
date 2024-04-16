@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { FaMoon, FaSun, FaEye, FaEyeSlash } from "react-icons/fa";
 import Home from "../../components/Home";
 import About from "../../components/about/AboutMain";
 import Courses from "../../components/Courses";
@@ -8,8 +8,9 @@ import Portfolio from "../../components/PortfolioCreative";
 import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
 
-const HomeLight = () => {
+const HomeLight = ({ onCursorToggle }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isCursorVisible, setIsCursorVisible] = useState(true);
 
   useEffect(() => {
     document.body.classList.toggle("dark", isDarkMode);
@@ -20,11 +21,21 @@ const HomeLight = () => {
     setIsDarkMode(!isDarkMode);
   };
 
+  const toggleCursorVisibility = () => {
+    setIsCursorVisible(!isCursorVisible);
+    onCursorToggle(!isCursorVisible);
+  };
+
   return (
     <>
       <PageTitle title="Home Regular" />
       {/* End page title for seo */}
-
+      <button
+        className="cursor-switcher-label"
+        onClick={toggleCursorVisibility}
+      >
+        {isCursorVisible ? <FaEye /> : <FaEyeSlash />}
+      </button>
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
           <>

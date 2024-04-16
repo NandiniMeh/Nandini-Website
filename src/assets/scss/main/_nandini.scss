@@ -2512,6 +2512,37 @@ body.modal {
   }
 }
 
+.dark .cursor-switcher-label {
+  cursor: pointer;
+  position: fixed;
+  right: 100px;
+  top: 25px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 1199px) {
+    visibility: hidden;
+  }
+
+  @media (max-width: 420px) {
+    visibility: hidden;
+  }
+}
+
 .theme-switcher-label {
   cursor: pointer;
   position: fixed;
@@ -2532,6 +2563,37 @@ body.modal {
   svg {
     width: 20px;
     height: 20px;
+  }
+}
+
+.cursor-switcher-label {
+  cursor: pointer;
+  position: fixed;
+  right: 100px;
+  top: 25px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  color: #000;
+  cursor: pointer;
+  border: none;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 1199px) {
+    visibility: hidden;
+  }
+
+  @media (max-width: 420px) {
+    visibility: hidden;
   }
 }
 
