@@ -11,6 +11,7 @@
 09) NANDINI MAGIC CURSOR
 10) NANDINI MEDIA QUERIES (FOR SMALL DEVIVES)
 11) NANDINI 404
+12) NANDINI CUSTOM CURSOR
 
 
 /*---------------------------------------------------*/
@@ -2532,4 +2533,18 @@ body.modal {
     width: 20px;
     height: 20px;
   }
+}
+
+/*---------------------------------------------------*/
+/*	12)	NANDINI CUSTOM CURSOR
+/*---------------------------------------------------*/
+
+.custom-cursor {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }

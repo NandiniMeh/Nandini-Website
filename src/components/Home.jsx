@@ -1,6 +1,6 @@
 import React from "react";
 import Social from "./Social";
-import Typewriter from "typewriter-effect";
+import Typewriter from "../components/custom/CustomTypewriter";
 
 const Home = () => {
   return (
@@ -38,15 +38,13 @@ const Home = () => {
             >
               <span style={{ marginRight: "6px" }}>I'm</span>
               <Typewriter
-                options={{
-                  strings: [
-                    "a Software Developer",
-                    "a Web Designer",
-                    "a FullStack Developer",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
+                strings={[
+                  "a Computer Science Student",
+                  "a Software Developer",
+                  "an HCI enthusiast",
+                ]}
+                autoStart={true}
+                loop={true}
               />
             </div>
 
