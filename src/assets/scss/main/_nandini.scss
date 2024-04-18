@@ -1074,12 +1074,6 @@ h6 {
 .nandini_tm_portfolio .portfolio_list li .inner .entry {
   position: relative;
   overflow: hidden;
-  &:hover {
-    img {
-      transform: scale(1.1);
-      border: 2px solid black;
-    }
-  }
 }
 .nandini_tm_portfolio .portfolio_list li .inner img {
   width: 100%;
@@ -1672,7 +1666,6 @@ body.modal {
 /*	08) NANDINI CONTACT
 /*---------------------------------------------------*/
 
-
 /*---------------------------------------------------*/
 /*	9) NANDINI MAGIC CURSOR
 /*---------------------------------------------------*/
@@ -2015,7 +2008,6 @@ body.modal {
 }
 
 @media (max-width: 767px) {
-
   .nandini_tm_home .details {
     text-align: center;
   }
@@ -2609,4 +2601,5 @@ body.modal {
   pointer-events: none;
   z-index: 9999;
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  opacity: 0.5;
 }

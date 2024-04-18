@@ -41,7 +41,7 @@ const CustomCursor = React.memo(() => {
             left: `${pos.x}px`,
             top: `${pos.y}px`,
             backgroundColor: pos.color,
-            opacity: 1 - (Date.now() - pos.time) / 1500,
+            opacity: 0.5 * (1 - (Date.now() - pos.time) / 1500),
             transform: `translate(-50%, -50%) scale(${
               1 + ((Date.now() - pos.time) / 1500) * 0.5
             })`,

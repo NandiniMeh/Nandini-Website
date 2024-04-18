@@ -60,6 +60,38 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/doro.png`}
+                          alt="battleship"
+                          data-tip
+                          data-for="shot"
+                          role="button"
+                          onClick={() =>
+                            window.open(
+                              "https://razroze-doro.web.app/",
+                              "_blank"
+                            )
+                          }
+                          onMouseEnter={() => setTooltipContent("Doro")}
+                        />
+                        <ReactTooltip
+                          id="shot"
+                          place="bottom"
+                          type="light"
+                          effect="float"
+                          className="tooltip-wrapper"
+                        >
+                          <div>
+                            <h5>{tooltipContent}</h5>
+                          </div>
+                        </ReactTooltip>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="inner">
+                      <div className="entry nandini_tm_portfolio_animation_wrap">
+                        <img
                           src={`${process.env.PUBLIC_URL}/assets/img/portfolio/battleship.png`}
                           alt="battleship"
                           data-tip
