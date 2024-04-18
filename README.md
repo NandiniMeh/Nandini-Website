@@ -1,6 +1,10 @@
 ## Nandini's Personal Portfolio
 
-Welcome to the repository for my personal website, [nandinim.design](https://www.nandinim.design)! This site showcases my skills and projects using a sleek, modern design implemented with React and Material-UI.
+Welcome to the repository for my personal website, [nandinim.design](https://www.nandinim.design)! My site is a colorful reflection of my personality, showcasing my skills and projects through a design that is as vibrant as it is modern. Built with React and styled with Material-UI, it serves not just as a portfolio but as a canvas displaying my journey in development.
+
+### A Fun Fact About the Design
+
+The website features three main colors, each representing one of the first three development projects I ever created. These colors are more than just aesthetic choices; they are a nod to my beginnings in coding and the evolution of my skills over time.
 
 ### Technologies Used
 
