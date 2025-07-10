@@ -14,7 +14,7 @@ const Courses = (props) => {
               <div className="left">
                 <span>Courses</span>
                 <h3>
-                  Coursework<strong style={{ color: "#0d98ba" }}>.</strong>
+                  Coursework & Internships<strong style={{ color: "#0d98ba" }}>.</strong>
                 </h3>
               </div>
             </div>

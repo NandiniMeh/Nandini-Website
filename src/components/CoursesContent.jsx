@@ -6,6 +6,7 @@ const CoursesContent = () => {
       id: 1,
       colClass: "left",
       title: "1A: Fall 2020",
+      type: "term",
       content: [
         " CS135: Designing Functional Programs",
         " MATH135: Algebra for Honours Mathematics",
@@ -17,6 +18,7 @@ const CoursesContent = () => {
       id: 2,
       colClass: "right",
       title: " 1B: Spring 2021",
+      type: "term",
       content: [
         " CS136: Elementary Algorithm Design and Data Abstraction",
         " MATH136: Linear Algebra 1 ",
@@ -28,6 +30,7 @@ const CoursesContent = () => {
       id: 3,
       colClass: "left",
       title: "2A: Fall 2021",
+      type: "term",
       content: [
         " CS246: Object-Oriented Software Development",
         " CS245: Logic and Computation",
@@ -41,12 +44,14 @@ const CoursesContent = () => {
       id: 4,
       colClass: "right",
       title: "Winter 2022",
+      type: "work",
       content: [" Software Developer: Arthur Health"],
     },
     {
       id: 5,
       colClass: "left",
       title: "2B: Spring 2022",
+      type: "term",
       content: [
         " CS241: Foundations of Sequential Programs",
         " CS251: Computer Organization and Design",
@@ -58,6 +63,7 @@ const CoursesContent = () => {
       id: 6,
       colClass: "right",
       title: "Fall 2022",
+      type: "work",
       content: [
         " UI Developer: Royal Bank of Canada",
         "MATH239: Introduction to Combinatorics",
@@ -67,6 +73,7 @@ const CoursesContent = () => {
       id: 7,
       colClass: "left",
       title: "3A: Winter 2023",
+      type: "term",
       content: [
         "CS350: Operating Systems",
         "STAT231: Statistics",
@@ -79,6 +86,7 @@ const CoursesContent = () => {
       id: 8,
       colClass: "right",
       title: "Spring 2023",
+      type: "work",
       content: [
         "PD7: Conflict Resolution",
         "Full Stack Developer: Royal Bank of Canada",
@@ -88,6 +96,7 @@ const CoursesContent = () => {
       id: 9,
       colClass: "left",
       title: "3B: Fall 2023",
+      type: "term",
       content: [
         "CS449: Human-Computer Interaction",
         "CS346: Application Development",
@@ -100,6 +109,7 @@ const CoursesContent = () => {
       id: 10,
       colClass: "right",
       title: "Winter 2024",
+      type: "work",
       content: [
         "PD6: Problem Solving",
         "Software Engineering Associate: Boomerang Intelligence",
@@ -109,6 +119,7 @@ const CoursesContent = () => {
       id: 11,
       colClass: "left",
       title: "4A: Spring 2024",
+      type: "term",
       content: [
         "CS 370: Numerical Computation",
         "CS 445: Software Req Specif & Analysis",
@@ -117,7 +128,33 @@ const CoursesContent = () => {
         "ENGL 306A: Intro Linguistics",
       ],
     },
-    // Add more data similarly if needed.
+    {
+      id: 12,
+      colClass: "right",
+      title: "Fall 2024",
+      type: "work",
+      content: ["Software Engineer Intern: Meta"],
+    },
+    {
+      id: 13,
+      colClass: "left",
+      title: "Winter 2025",
+      type: "work",
+      content: ["Software Engineer Intern: Top Hat"],
+    },
+    {
+      id: 14,
+      colClass: "right",
+      title: "4B: Spring 2025",
+      type: "term",
+      content: [
+        "CS 480: Intro Machine Learning",
+        "CS 348: Intro Database Management",
+        "CS 136L: Tools & Tech for Software Dev",
+        "FINE 130: Intro Digital Imaging",
+        "CLAS 202: Love, Life & Death in Rome",
+      ],
+    },
   ];
 
   const containerStyle = {

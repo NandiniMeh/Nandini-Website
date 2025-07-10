@@ -8,26 +8,33 @@ const Intro = (props) => {
     text: (
       <>
         <p>
-          Allow me to introduce myself—I'm Nandini, a spirited CS student
-          currently embarking on an incredible adventure at the prestigious
-          University of Waterloo. As I navigate through my third year, I find
-          myself captivated by the captivating world of Frontend Development,
-          Fullstack Development, and the ever-evolving realm of Software
-          Development. With an insatiable curiosity and a passion for crafting
-          immersive digital experiences, I am continuously inspired to push the
-          boundaries of what's possible. Armed with my keyboard as my brush and
-          a blank canvas of code, I embark on an exhilarating journey, weaving
-          together artistry and technology to bring ideas to life.
+          Hey, I’m Nandini — a Computer Science student at the University of
+          Waterloo with fullstack experience and a soft spot for frontend. I
+          love writing code that speaks to people — whether that’s through a
+          responsive UI, a thoughtful interaction, or a tiny animation that
+          makes someone smile.
         </p>
         <p>
-          In addition, I have discovered a deep appreciation for the captivating
-          world of UX design. This love bloomed from my inherent fascination
-          with music. I enjoy sharing music that inspires me, and discussing it
-          with my friends. I do all of this to uncover new insights about a song
-          that I would’ve never understood on the first play-through. I
-          experience tiny moments of joy every time I'm able to put something
-          together that a person loves through just a little research (be it an
-          app, website or a Spotify playlist!)
+          While I’ve worked across the stack, from building APIs to optimizing
+          backend workflows, it’s the frontend that truly excites me. It’s
+          where logic meets emotion. Recently, I’ve been diving into{" "}
+          <a href="https://threejs.org" target="_blank">
+            Three.js
+          </a>{" "}
+          to explore creative 3D web experiences that push the browser in
+          unexpected ways.
+        </p>
+        <p>
+          Outside of code, I’m always creating. Right now, that means writing a
+          book (sketching out the first chapters of a book I might actually
+          finish one day). It's a project that’s teaching me as much about persistence
+          and clarity as any line of JavaScript. I also collect vinyl records
+          (yes, I still believe in album art), and I love building playlists and
+          interfaces that feel personal and just a little bit poetic.
+        </p>
+        <p>
+          I see software as a form of storytelling. And I’m always chasing that intersection
+          between creativity, code, and craft.
         </p>
       </>
     ),

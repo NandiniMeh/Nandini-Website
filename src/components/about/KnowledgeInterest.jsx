@@ -7,10 +7,11 @@ const KnowledgeInterest = () => {
       colClass: "left",
       title: "Knowledge",
       content: [
-        " ReactJs, Javascript, HTML/CSS, jQuery",
-        " Figma, Material UI, Postman",
-        " Kotlin, JavaFX, IntelliJ",
-        " C++/C, Bash, Shell",
+        "React.js, TypeScript, JavaScript, HTML/CSS, jQuery",
+        "Figma, Material UI, Postman, Git, Jenkins",
+        "Python, SQL, Prisma, Node.js",
+        "C/C++, Bash, Shell scripting",
+        "Jira, Linear, Jest, React Testing Library",
       ],
     },
     {
@@ -18,10 +19,11 @@ const KnowledgeInterest = () => {
       colClass: "right",
       title: "Interests",
       content: [
-        " Creating UI/UX designs",
-        " Reading",
-        " Vinyl record hunting in Waterloo/Toronto",
-        " Learning! ",
+        "Designing expressive UI/UX experiences",
+        "Reading fiction, essays, and tech blogs",
+        "Vinyl record hunting across Waterloo & Toronto",
+        "Learning new tools, frameworks, and creative skills",
+        "Exploring the overlap between code and creativity",
       ],
     },
   ];

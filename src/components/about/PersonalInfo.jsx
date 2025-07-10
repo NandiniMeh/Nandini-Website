@@ -14,7 +14,7 @@ const PersonalInfo = () => {
         {
           id: 2,
           name: "Age",
-          content: "21",
+          content: "23",
         },
         {
           id: 3,
@@ -54,11 +54,6 @@ const PersonalInfo = () => {
           id: 2,
           name: "Study",
           content: "Pursuing Bachelor of Computer Science",
-        },
-        {
-          id: 4,
-          name: "Interest",
-          content: "Expressive Writing, Reading, Movies",
         },
       ],
     },
