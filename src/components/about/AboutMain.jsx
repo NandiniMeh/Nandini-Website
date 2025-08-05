@@ -1,8 +1,7 @@
 import React from "react";
 import Modal from "react-modal";
 import Intro from "./Intro";
-import KnowledgeInterest from "./KnowledgeInterest";
-import PersonalInfo from "./PersonalInfo";
+import Experience from "./Experience";
 
 Modal.setAppElement("#root");
 
@@ -24,24 +23,14 @@ const AboutMain = (props) => {
           {/* End title */}
 
           <Intro {...props} />
+
           <div className="nandini_tm_short_info">
-            <PersonalInfo />
+            <Experience />
           </div>
-          {/* End personal info */}
+          {/* End experience section */}
         </div>
       </div>
       {/* End .container */}
-
-      <div className="nandini_tm_skillbox">
-        <div className="container">
-          <div className="in">
-            <KnowledgeInterest />
-          </div>
-        </div>
-      </div>
-      {/* End .nandini_tm_skillbox */}
-
-      {/* /ABOUT */}
     </>
   );
 };
