@@ -60,6 +60,43 @@ const Portfolio = () => {
                     <div className="inner">
                       <div className="entry nandini_tm_portfolio_animation_wrap">
                         <img
+                          src={`${process.env.PUBLIC_URL}/assets/img/portfolio/memory-weave.png`}
+                          alt="Memory Weave"
+                          data-tip
+                          data-for="memoryweave"
+                          role="button"
+                          onClick={() =>
+                            window.open(
+                              "https://github.com/NandiniMeh/memory-weave",
+                              "_blank"
+                            )
+                          }
+                          onMouseEnter={() => {
+                            setTooltipContent(
+                              "Memory Weave"
+                            );
+                            ReactTooltip.rebuild();
+                          }}
+                        />
+                      </div>
+                      <ReactTooltip
+                        id="memoryweave"
+                        place="bottom"
+                        type="light"
+                        effect="float"
+                        className="tooltip-wrapper"
+                      >
+                        <div>
+                          <h5>{tooltipContent}</h5>
+                        </div>
+                      </ReactTooltip>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="inner">
+                      <div className="entry nandini_tm_portfolio_animation_wrap">
+                        <img
                           src={`${process.env.PUBLIC_URL}/assets/img/portfolio/doro.png`}
                           alt="battleship"
                           data-tip
